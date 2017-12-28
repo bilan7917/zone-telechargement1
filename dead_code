@@ -1,0 +1,20 @@
+code for removing storage warnings in Firefox:
+"applications": {
+      "gecko": {
+          "id": "zt100pub@nux-zt100pub.org",
+          "strict_min_version": "42.0"
+      }
+  },
+
+permissions for opera:
+"permissions": ["*://*.zone-telechargement1.com/*",
+                "http://uptobox.com/*",
+                "http://uploaded.net/*",
+                "http://turbobit.net/*",
+                "http://nitroflare.com/*",
+                "https://1fichier.com/*",
+                "http://rapidgator.net/*",
+                "storage", "clipboardWrite", "clipboardRead"],
+
+permissions for firefox:
+"permissions": ["<all_urls>","storage", "clipboardWrite"],
